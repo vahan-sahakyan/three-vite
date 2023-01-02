@@ -1,0 +1,30 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+html {
+  background-color: #2435;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 6rem 0;
+  padding: 1rem;
+  width: 80vw;
+  min-height: 120vh;
+  /* margin: 10rem; */
+  color: white;
+  border: 3px solid white;
+  background-color: rgba(49, 155, 193, 0.333);
+  z-index: 99;
+}
